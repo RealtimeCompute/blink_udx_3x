@@ -1,9 +1,7 @@
 package com.alibaba.blink.udx;
 
 
-/**
- * Created by zhaokaixing on 2018/8/24.
- */
+
 
 import org.apache.flink.table.functions.FunctionContext;
 import org.apache.flink.table.functions.TableFunction;

@@ -14,7 +14,6 @@
         <scala.binary.version>2.11</scala.binary.version>
         <blink.version>blink-3.2.2</blink.version>
         <java.version>1.8</java.version>
-        <projectdir>/Users/zhaokaixing/opt/src/blink_udx_3x</projectdir>
     </properties>
 
     <dependencies>
@@ -30,14 +29,14 @@
             <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
             <version>${blink.version}</version>
             <scope>system</scope>
-            <systemPath>${projectdir}/lib/flink-streaming-java_2.11-blink-2.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/flink-streaming-java_2.11-blink-2.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.alibaba.blink</groupId>
             <artifactId>flink-table_2.11</artifactId>
             <version>${blink.version}</version>
             <scope>system</scope>
-            <systemPath>${projectdir}/lib/flink-table_2.11-blink-2.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/flink-table_2.11-blink-2.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

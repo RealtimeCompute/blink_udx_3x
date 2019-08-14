@@ -1,9 +1,7 @@
 package com.alibaba.blink.udx;
 
 
-/**
- * Created by zhaokaixing on 2018/8/24.
- */
+
 import org.apache.flink.table.functions.AggregateFunction;
 
 public class CountUdaf extends AggregateFunction<Long, CountUdaf.CountAccum> {
