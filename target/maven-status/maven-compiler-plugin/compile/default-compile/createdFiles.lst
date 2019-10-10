@@ -1,0 +1,5 @@
+com/alibaba/blink/udx/nginx/NginxLogParserUdtf.class
+com/alibaba/blink/udx/SplitUdtf.class
+com/alibaba/blink/udx/CountUdaf.class
+com/alibaba/blink/udx/StringLengthUdf.class
+com/alibaba/blink/udx/CountUdaf$CountAccum.class

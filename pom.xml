@@ -22,21 +22,21 @@
             <artifactId>flink-core</artifactId>
             <version>${blink.version}</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/flink-core-blink-2.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/flink-core-blink-3.2.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.alibaba.blink</groupId>
             <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
             <version>${blink.version}</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/flink-streaming-java_2.11-blink-2.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/flink-streaming-java_2.11-blink-3.2.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.alibaba.blink</groupId>
             <artifactId>flink-table_2.11</artifactId>
             <version>${blink.version}</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/flink-table_2.11-blink-2.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/flink-table_2.11-blink-3.2.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

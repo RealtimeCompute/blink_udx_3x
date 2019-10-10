@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="blink-udx-3.x" />
         <module name="blink_udx_3x" />
       </profile>
     </annotationProcessing>
